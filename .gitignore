@@ -1,0 +1,6 @@
+/.DS_Store
+/sample-electron/.DS_Store
+/sample-electron/.idea
+/sample-electron/package-lock.json
+/sample-electron/FirstApp-darwin-x64
+/sample-electron/node_modules
