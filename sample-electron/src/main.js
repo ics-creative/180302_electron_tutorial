@@ -15,11 +15,7 @@ function createWindow() {
 
   // メインウィンドウに表示するURLを指定します
   // （今回はmain.jsと同じディレクトリのindex.html）
-  mainWindow.loadURL(url.format({
-    pathname: path.join(__dirname, 'index.html'),
-    protocol: 'file:',
-    slashes: true
-  }));
+  mainWindow.loadFile('index.html');
 
   // デベロッパーツールの起動
   mainWindow.webContents.openDevTools();
