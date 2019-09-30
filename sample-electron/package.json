@@ -5,8 +5,8 @@
     "build-windows": "electron-packager ./src FirstApp --platform=win32 --arch=x64 --overwrite"
   },
   "devDependencies": {
-    "electron": "^4.1.4",
-    "electron-packager": "^13.1.1"
+    "electron": "^6.0.10",
+    "electron-packager": "^14.0.6"
   },
   "private": true
 }
