@@ -1,0 +1,11 @@
+{
+  "name": "180302_electron_tutorial",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^36.0.0"
+  }
+}
