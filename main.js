@@ -11,8 +11,7 @@ const createWindow = () => {
     width: 800,
     height: 600,
     webPreferences: {
-      // プリロードスクリプトは、レンダラープロセスが読み込まれる前に実行され、
-      // レンダラーのグローバル（window や document など）と Node.js 環境の両方にアクセスできます。
+      // プリロードスクリプトで、レンダラープロセスに安全にAPIを公開します
       preload: path.join(__dirname, "preload.js"),
     },
   });
